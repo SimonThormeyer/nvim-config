@@ -5,6 +5,12 @@ return {
     opts = {
       picker = {
         sources = {
+          files = {
+            hidden = true,
+          },
+          grep = {
+            hidden = true,
+          },
           git_log_line = {
             actions = {
               copy_sha = function(_, item)
